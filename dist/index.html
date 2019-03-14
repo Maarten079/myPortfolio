@@ -8,7 +8,7 @@
   <meta name="description" content="Portfolio of a developer in training">
   <meta name="author" content="Maarten Moerland">
 
-  <title>Software development student portfolio</title>
+  <title>Portfolio Maarten Moerland</title>
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -139,10 +139,11 @@
       <hr class="star-light mb-5">
       <div class="row">
         <div class="col-lg-4 ml-auto">
-          <p class="lead">Thanks for visiting! My name is Maarten Moerland. I'm a 27 year old IT student from the Netherlands. After working in the mechanical sector for seven years i've decided to follow my passion for IT and start the journey to becoming a full stack developer.</p>
+          <p class="lead">Thanks for visiting! My name is Maarten Moerland. I'm a 27 year old IT student from the Netherlands. 
+            After working in the mechanical engineering and production sector for seven years I have decided to follow my passion for IT and start the journey to becoming a full-stack developer.</p>
         </div>
         <div class="col-lg-4 mr-auto">
-          <p class="lead">On this website i showcase some of the work that i have done, tell more about the tools and languages i used to develop the projects and summarize what i have learned doing those projects. You can also reach out to me trough the contact form at the bottom!</p>
+          <p class="lead">On this website I showcase some of the work that I have done, tell about tools and languages I used to develop the projects and summarize what I have learned doing those projects. You can also reach out to me trough the contact form at the bottom!</p>
         </div>
       </div>
     </div>
@@ -157,7 +158,7 @@
         <div class="col-lg-8 mx-auto">
           <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
           <!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. -->
-          <form name="sentMessage" id="contactForm" novalidate="novalidate">
+          <form name="contact" method="POST" data-netlify="true">
             <div class="control-group">
               <div class="form-group floating-label-form-group controls mb-0 pb-2">
                 <label>Name</label>
@@ -202,30 +203,13 @@
     <div class="container">
       <div class="row">
         <div class="col-md-4 mb-5 mb-lg-0">
-          <h4 class="text-uppercase mb-4">Location</h4>
+          <h4 class="text-uppercase mb-4">Location University</h4>
           <p class="lead mb-0">De Haagse Hogeschool
             <br>Bleiswijkseweg 37E, 2712 PB Zoetermeer</p>
         </div>
         <div class="col-md-4 mb-5 mb-lg-0">
           <h4 class="text-uppercase mb-4">Around the Web</h4>
           <ul class="list-inline mb-0">
-            <!--
-            <li class="list-inline-item">
-              <a class="btn btn-outline-light btn-social text-center rounded-circle" href="#">
-                <i class="fab fa-fw fa-facebook-f"></i>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a class="btn btn-outline-light btn-social text-center rounded-circle" href="#">
-                <i class="fab fa-fw fa-google-plus-g"></i>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a class="btn btn-outline-light btn-social text-center rounded-circle" href="#">
-                <i class="fab fa-fw fa-twitter"></i>
-              </a>
-            </li>
-            -->
             <li class="list-inline-item">
               <a class="btn btn-outline-light btn-social text-center rounded-circle" href="https://www.linkedin.com/in/maarten-moerland-525351180/">
                 <i class="fab fa-fw fa-linkedin-in"></i>
@@ -275,14 +259,14 @@
             <img class="img-fluid mb-4 " src="img/portfolio/VangDeVolgerExample.gif" alt="">
             <div class="container text-left">
             <p class="mb-3">
-              Catch the follower is school project that i have creating for the following reasons:
+              Catch the follower is school project that I have creating with the following learning goals:
               <ul>
                 <li>Getting familiar with Visual Studio and C#</li>
                 <li>Learn about UML and "object oriented programming"</li>
                 <li>Learn about GIT and group workflow</li>
               </ul>
-              The machanics of the game are simple, the player controls the charactar that starts in the top right of the screen and and the objective is to trap the enemy with boxes. 
-              When you come in a three-square range of the enemy it will sense you and try to catch you. The game is over when you catch the enemy, or when it catches you.             
+              The mechanics of the game are simple. The player controls the character that starts in the top right of the screen and the objective is to trap the enemy (bottom right character) with boxes. 
+              When you come in a three-square range of the enemy it will sense your precense and will follow your character in an effort to catch it. The game is over when you catch the enemy, or when it catches your character.             
             </p>
             </div>
             <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
@@ -307,16 +291,16 @@
             <hr class="star-dark mb-5">
             <img class="img-fluid mb-3" src="img/portfolio/RewardRecycleExample.gif" alt="">
             <div class="container text-left">
-                <p class="mb-3">Reward recycle is a school project that i have created for the following reasons:
+                <p class="mb-3">Reward recycle is a school project that I have created with the following learning goals:
                     <ul>
                       <li>Getting more familiar with MySQL</li>
                       <li>Getting more familiar with embedded systems</li>
                       <li>Getting familiar with the ASP.NET CORE Framework</li>
                       <li>Getting familiar with Python</li>
                     </ul>
-                  Reward recycle is a product that consists of a web page where users can register to receive an NFC tag, and an embedded system that scans the tag and rewards users with points.
-                  The goal of the project is to reward users of this system for making use of seperation garbage disposals. 
-                  The NFC scanning interface at the garbage disposal is powered by a RaspBerry Pi with a Python script running on it.
+                  Reward recycle is a product that consists of a web page where users can register to receive an NFC tag and an embedded system that scans the tag to reward users with points.
+                  The goal of the project is to reward users for making use of seperation garbage disposals. 
+                  The NFC scanning interface at the garbage disposal is powered by a RaspBerry Pi running a python script.
                   </p>
             </div>
             <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
@@ -344,12 +328,12 @@
             <img class="img-fluid mb-5" src="img/portfolio/DifJobsExample3.PNG" alt="">
             <div class="container text-left">
                 <p class="mb-3">
-                    Dif Jobs is one of the first web development projects i have done. It is a small project designed to connect students to companies in the "Dutch Innovation Factory". 
+                    Dif Jobs is one of the first web development projects I have done. It is a small project designed to connect students to companies in the "Dutch Innovation Factory". 
                     The techniques and tools that have been used to create this project are:
                     <ul>
                       <li>JetBrains PhpStorm</li>
                       <li>HTML, CSS, PHP, JavaScript and jQuery</li>
-                      <li>MySQL</li>
+                      <li>MySQL, MySQL workbench and PhpMyAdmin</li>
                     </ul>
                   </p>
             </div>
@@ -374,7 +358,7 @@
             <h2 class="text-secondary mb-0">Data visualtisation</h2>
             <hr class="star-dark mb-5">
             <img class="img-fluid mb-5" src="img/portfolio/DataVisualisationThumbnail.PNG" alt="">
-            <p class="mb-5">Data visualisation is a school project i'm currently working on. Return in the near future to see how this project turned out!</p>
+            <p class="mb-5">Data visualisation is a school project I am currently working on. Return in the near future to see how this project turned out!</p>
             <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
               <i class="fa fa-close"></i>
               Close Project</a>
@@ -396,7 +380,7 @@
             <h2 class="text-secondary mb-0">cnc-estimate</h2>
             <hr class="star-dark mb-5">
             <img class="img-fluid mb-5" src="img/portfolio/CncEstimateThumbnail.png" alt="">
-            <p class="mb-5">cnc-estimate is a project i'm currently working on. Return in the near future to see how this project turned out!</p>
+            <p class="mb-5">cnc-estimate is a project I am currently working on. Return in the near future to see how this project turned out!</p>
             <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
               <i class="fa fa-close"></i>
               Close Project</a>
