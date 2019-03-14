@@ -143,7 +143,8 @@
             After working in the mechanical engineering and production sector for seven years I have decided to follow my passion for IT and start the journey to becoming a full-stack developer.</p>
         </div>
         <div class="col-lg-4 mr-auto">
-          <p class="lead">On this website I showcase some of the work that I have done, tell about tools and languages I used to develop the projects and summarize what I have learned doing those projects. You can also reach out to me trough the contact form at the bottom!</p>
+          <p class="lead">On this website I showcase some of the work that I have done, tell about tools and languages I used to develop the projects and summarize what I have learned doing those projects. 
+            You can also reach out to me trough the contact form at the bottom!</p>
         </div>
       </div>
     </div>
@@ -156,41 +157,32 @@
       <hr class="star-dark mb-5">
       <div class="row">
         <div class="col-lg-8 mx-auto">
-          <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
-          <!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. -->
           <form name="contact" method="POST" data-netlify="true">
             <div class="control-group">
               <div class="form-group floating-label-form-group controls mb-0 pb-2">
                 <label>Name</label>
-                <input class="form-control" id="name" name="name" type="text" placeholder="Name" required="required" data-validation-required-message="Please enter your name.">
+                  <input class="form-control" type="text" name="name" placeholder="Name" required="required" data-validation-required-message="Please enter your name.">
                 <p class="help-block text-danger"></p>
               </div>
             </div>
             <div class="control-group">
               <div class="form-group floating-label-form-group controls mb-0 pb-2">
                 <label>Email Address</label>
-                <input class="form-control" id="email" name="email" type="email" placeholder="Email Address" required="required" data-validation-required-message="Please enter your email address.">
-                <p class="help-block text-danger"></p>
-              </div>
-            </div>
-            <div class="control-group">
-              <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                <label>Phone Number</label>
-                <input class="form-control" id="phone" type="tel" placeholder="Phone Number" name="phone" required="required" data-validation-required-message="Please enter your phone number.">
+                  <input class="form-control" id="email" type="email" name="email" placeholder="Email Address" required="required" data-validation-required-message="Please enter your email address.">
                 <p class="help-block text-danger"></p>
               </div>
             </div>
             <div class="control-group">
               <div class="form-group floating-label-form-group controls mb-0 pb-2">
                 <label>Message</label>
-                <textarea class="form-control" id="message" rows="5" placeholder="Message" name="message" required="required" data-validation-required-message="Please enter a message."></textarea>
+                  <textarea class="form-control" name="message" rows="5" placeholder="Message" nrequired="required" data-validation-required-message="Please enter a message."></textarea>
                 <p class="help-block text-danger"></p>
               </div>
             </div>
             <br>
             <div id="success"></div>
             <div class="form-group">
-              <button type="submit" class="btn btn-primary btn-xl" id="sendMessageButton">Send</button>
+              <button type="submit" class="btn btn-primary btn-xl">Send</button>
             </div>
           </form>
         </div>
